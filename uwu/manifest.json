@@ -1,0 +1,64 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Fairplay uWuifier",
+        "description": "All rights reserved to economyplus.solutions[Fairplay+]",
+        "uuid": "2e041008-0a85-468e-8a0c-92dd94213bc6",
+        "version": [
+            1,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            18,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "84d5a89b-8dcc-0308-a7d7-fd5f8123bba7",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "a49136eb-2221-408f-8e18-2609d28926fd",
+            "version": "1.6.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Sha386",
+            "Crant",
+            "fuhuloggin"
+        ],
+        "compileinfo": {
+            "encryption": "NONE",
+            "compiledsymbols": "10111101101100011111111010000110010101100011110100100111000000100110100000100000011010001000-11111000101011001001011101000110101011110111110011100010111011100110101011111111111011001000-82AD23D641F168BB5D55C89863695DD557AD1C8BB73A101F6159DF54726F600C8E93EBF526430EF3696C6254CFDCE7708C4DCE30E2C2826A6E644AA2BC8C2178",
+            "compiletime": 1717514370284
+        },
+        "license": "All rights reserved to economyplus.solutions, you may not redistribute, modify, or reverse this pack without permission from the author(s).",
+        "description": "Ingame pack made to work with Fairplay+ management tool. More info can be found in economyplus.solutions/dashboard"
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
