@@ -1,6 +1,6 @@
 import { world } from "@minecraft/server";
 import Uwuifier from "../uwu/index";
-import { fairplayAnalytics } from '@fairplay/antlytics';
+import { fairplayAnalytics } from '@fairplay/analytics';
 
 const uwuifier = new Uwuifier({
     spaces: {
